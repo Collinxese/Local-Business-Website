@@ -4,27 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Local Business</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
 
-    <header>
-        <div class="logo">LOGO</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="header-main">
+        <div class="header-logo">
+            <img src="img/Logo.svg"  alt="logo">
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="header-login">
+            <button class="header-login-signIn">Login</button>
+            <button class="header-login-signUp">Sign Up</button>
+        </div>
     </header>
 
     <main>
-        <section id="hero">
-            <img src="img/hero.avif" alt="Hero Image" class="full-width">
-            <h1>Welcome to Our Local Business</h1>
-            <p>Your satisfaction is our priority.</p>
+        <section class="hero-section">
+            <img src="/img/Hero Image.jpg" alt="Hero Image" class="full-width">
+            <div class="hero-content">
+                <h1>&#698;Easy ordering, quick delivery, <span>happy eating&#698;</span></h1>
+                <p>Explore a wide range of cuisines, discover local favourites, and enjoy excusive deals &#8208; all in just a few step</p>
+                <button>Order Now</button>
+            </div>
+            
         </section>
 
         <section id="about">
